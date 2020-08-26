@@ -5,8 +5,8 @@ import urllib
 import xml.etree.ElementTree as ET
 import json
 
-fqdn = 'http://127.0.0.1:8888/'
-uri = 'solr4/admin/cores?action=STATUS'
+fqdn = 'http://127.0.0.1:8983/'
+uri = 'solr/admin/cores?action=STATUS'
 
 def main():
     
