@@ -18,7 +18,9 @@ It use this URI /admin/cores?action=STATUS which returns xml list of cores.
 Just one for discovery UserParameter=solr.core.discovery.
 All of item are retreived throught jmx connector
 
-##Items
+## solr setup
+- set remote JMX in solr (https://lucene.apache.org/solr/guide/7_6/using-jmx-with-solr.html#configuring-a-remote-connection-to-solr-jmx)
+- also set hostname
 
 
 
